@@ -1,7 +1,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { ArrowRight, BrainCircuit, Briefcase, FileText, GraduationCap, LineChart, ListChecks, Target } from 'lucide-react';
+import { ArrowRight, BrainCircuit, Briefcase, FileText, GraduationCap, LineChart, ListChecks, Target, Search, TrendingUp } from 'lucide-react';
 import Link from 'next/link';
 
 
@@ -35,6 +35,16 @@ const features = [
     icon: <LineChart className="h-8 w-8" />,
     title: 'Demand Forecast',
     description: 'See which skills will be in demand tomorrow.',
+  },
+  {
+    icon: <Search className="h-8 w-8" />,
+    title: 'Job Matching',
+    description: 'Let AI find the perfect job openings for your skillset.',
+  },
+  {
+    icon: <TrendingUp className="h-8 w-8" />,
+    title: 'Market Intelligence',
+    description: 'Get real-time analysis on salaries, top companies, and locations.',
   },
 ]
 
@@ -80,7 +90,7 @@ export default function HomePage() {
             <h2 className="text-3xl md:text-4xl font-bold font-headline">A Full-Stack Career Toolkit</h2>
             <p className="md:text-lg text-muted-foreground mt-2">Everything you need to go from learning to earning.</p>
           </div>
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {features.map((feature, index) => (
               <div key={index} className="animate-in fade-in-0 duration-500" style={{ animationDelay: `${index * 100}ms`}}>
                 <Card className="h-full bg-card/60 backdrop-blur-sm border-white/10 hover:border-primary/50 hover:bg-card/80 transition-all hover:shadow-lg hover:shadow-primary/10">
