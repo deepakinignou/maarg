@@ -1,7 +1,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { ArrowRight, BrainCircuit, Briefcase, FileText, GraduationCap, LineChart, ListChecks, Target, Search, TrendingUp } from 'lucide-react';
+import { ArrowRight, BrainCircuit, Briefcase, FileText, GraduationCap, LineChart, ListChecks, Target, Search, TrendingUp, Users, GalleryVertical, Zap, Handshake } from 'lucide-react';
 import Link from 'next/link';
 
 
@@ -45,6 +45,26 @@ const features = [
     icon: <TrendingUp className="h-8 w-8" />,
     title: 'Market Intelligence',
     description: 'Get real-time analysis on salaries, top companies, and locations.',
+  },
+   {
+    icon: <Users className="h-8 w-8" />,
+    title: 'Mentor Connect',
+    description: 'Find and connect with mentors in your desired field.',
+  },
+  {
+    icon: <GalleryVertical className="h-8 w-8" />,
+    title: 'Portfolio Builder',
+    description: 'Showcase your projects with a professional portfolio.',
+  },
+  {
+    icon: <Zap className="h-8 w-8" />,
+    title: 'Networking Assistant',
+    description: 'Get AI-driven suggestions for professional networking.',
+  },
+  {
+    icon: <Handshake className="h-8 w-8" />,
+    title: 'Salary Navigator',
+    description: 'Tools and insights for salary negotiation.',
   },
 ]
 
