@@ -1,7 +1,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { ArrowRight, BrainCircuit, Briefcase, FileText, GraduationCap, LineChart, ListChecks, Target, Search, TrendingUp, Users, GalleryVertical, Zap, Handshake, PenSquare, FileSignature, Goal, MessageSquare, DollarSign, ScanText, Network } from 'lucide-react';
+import { ArrowRight, BrainCircuit, Briefcase, FileText, GraduationCap, LineChart, ListChecks, Target, Search, TrendingUp, Users, GalleryVertical, Zap, Handshake, PenSquare, FileSignature, Goal, MessageSquare, DollarSign, ScanText, Network, HeartHandshake, Puzzle } from 'lucide-react';
 import Link from 'next/link';
 
 
@@ -105,6 +105,21 @@ const features = [
     icon: <Network className="h-8 w-8" />,
     title: 'Cross-Platform Profile Sync',
     description: 'Import your profile from other platforms to get hyper-personalized job and internship suggestions.',
+  },
+  {
+    icon: <Zap className="h-8 w-8" />,
+    title: 'Personal Branding Coach',
+    description: 'Receive AI-driven feedback to build and polish your professional brand.',
+  },
+  {
+    icon: <HeartHandshake className="h-8 w-8" />,
+    title: 'Culture Fit Assessment',
+    description: 'Take an AI-powered quiz to find companies that match your values.',
+  },
+  {
+    icon: <Puzzle className="h-8 w-8" />,
+    title: 'Soft Skills Trainer',
+    description: 'Interactive modules to practice communication, leadership, and teamwork.',
   },
 ]
 
