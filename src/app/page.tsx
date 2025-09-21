@@ -1,7 +1,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { ArrowRight, BrainCircuit, Briefcase, FileText, GraduationCap, LineChart, ListChecks, Target, Search, TrendingUp, Users, GalleryVertical, Zap, Handshake, PenSquare, FileSignature, Goal, MessageSquare, DollarSign } from 'lucide-react';
+import { ArrowRight, BrainCircuit, Briefcase, FileText, GraduationCap, LineChart, ListChecks, Target, Search, TrendingUp, Users, GalleryVertical, Zap, Handshake, PenSquare, FileSignature, Goal, MessageSquare, DollarSign, ScanText } from 'lucide-react';
 import Link from 'next/link';
 
 
@@ -95,6 +95,11 @@ const features = [
     icon: <DollarSign className="h-8 w-8" />,
     title: 'Salary Negotiation Coach',
     description: 'Practice negotiation and get AI feedback to maximize your offers.',
+  },
+  {
+    icon: <ScanText className="h-8 w-8" />,
+    title: 'Resume ATS Score Checker',
+    description: 'Optimize your resume to pass through Applicant Tracking Systems.',
   },
 ]
 
