@@ -1,7 +1,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { ArrowRight, BrainCircuit, Briefcase, FileText, GraduationCap, LineChart, ListChecks, Target, Search, TrendingUp, Users, GalleryVertical, Zap, Handshake, PenSquare, FileSignature, Goal } from 'lucide-react';
+import { ArrowRight, BrainCircuit, Briefcase, FileText, GraduationCap, LineChart, ListChecks, Target, Search, TrendingUp, Users, GalleryVertical, Zap, Handshake, PenSquare, FileSignature, Goal, MessageSquare, DollarSign } from 'lucide-react';
 import Link from 'next/link';
 
 
@@ -85,6 +85,16 @@ const features = [
     icon: <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-8 w-8"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>,
     title: 'LinkedIn Optimizer',
     description: 'Get AI feedback to improve your LinkedIn profile.',
+  },
+  {
+    icon: <MessageSquare className="h-8 w-8" />,
+    title: 'AI-powered Networking',
+    description: 'Get smart suggestions on who to connect with and how to reach out.',
+  },
+  {
+    icon: <DollarSign className="h-8 w-8" />,
+    title: 'Salary Negotiation Coach',
+    description: 'Practice negotiation and get AI feedback to maximize your offers.',
   },
 ]
 
