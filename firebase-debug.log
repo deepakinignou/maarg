@@ -1,0 +1,17 @@
+[debug] [2025-09-21T04:02:56.436Z] ----------------------------------------------------------------------
+[debug] [2025-09-21T04:02:56.440Z] Command:       /nix/store/ws50yvm6vzlzf7jzz6n7xh4szddrack1-nodejs-20.19.1/bin/node /home/user/.global_modules/bin/firebase login
+[debug] [2025-09-21T04:02:56.441Z] CLI Version:   14.17.0
+[debug] [2025-09-21T04:02:56.442Z] Platform:      linux
+[debug] [2025-09-21T04:02:56.442Z] Node Version:  v20.19.1
+[debug] [2025-09-21T04:02:56.442Z] Time:          Sun Sep 21 2025 04:02:56 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-09-21T04:02:56.442Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-09-21T04:02:56.447Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2025-09-21T04:02:57.343Z] No OAuth tokens found
+[debug] [2025-09-21T04:02:57.344Z] No OAuth tokens found
+[error] Failed to fetch Firebase Project from current Studio Workspace: Unable to refresh auth: not yet authenticated.
+[info] i  The Firebase CLI’s MCP server feature can optionally make use of Gemini in Firebase. Learn more about Gemini in Firebase and how it uses your data: https://firebase.google.com/docs/gemini-in-firebase#how-gemini-in-firebase-uses-your-data 
+[info] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you. 
+[debug] [2025-09-21T04:02:57.766Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2025-09-21T04:02:57.769Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
